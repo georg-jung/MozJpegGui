@@ -1,0 +1,14 @@
+﻿<Window x:Class="MozJpegGui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MozJpegGui"
+        mc:Ignorable="d"
+        Title="MozJPEG Compressor" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="compressFolderButton" Content="Compress Folder..." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="140" Click="OpenFolder_Click"/>
+        <ProgressBar x:Name="progressBar" Height="15" Margin="10,40,10,0" VerticalAlignment="Top"/>
+        <Label x:Name="statusLabel" Content="Ready" Margin="10,60,10,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
